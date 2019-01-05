@@ -1,0 +1,132 @@
+pyperparameters:
+learn_rate:0.001
+early_stop:True
+early_stop_gap:50
+epsilon:1e-07
+activation:sigmoid
+train_steps:2
+architecture:[3072, 64, 64, 10]
+batch_size:256
+dataset:cifar10
+clip_gradient:True
+early_stop_condition:step
+input_dim:3072
+max_gradient:100.0
+max_epochs:50
+max_steps:300
+file_path:./cifar10_data/
+output_dim:10
+E:1 S:2 Train_Loss:6.17412 Test_Loss:7.41930 Train_Acc:0.07812 Test_Acc:0.09717 gap:-0.01904 Train_Speed:24700 Test_Speed:59658
+best_epoch:1 best_step:2 best_test_acc:0.09716796875
+E:1 S:4 Train_Loss:9.27612 Test_Loss:6.26666 Train_Acc:0.07422 Test_Acc:0.09580 gap:-0.02158 Train_Speed:24817 Test_Speed:60275
+best_epoch:1 best_step:2 best_test_acc:0.09716796875
+E:1 S:6 Train_Loss:9.87540 Test_Loss:7.33252 Train_Acc:0.07812 Test_Acc:0.09756 gap:-0.01943 Train_Speed:24311 Test_Speed:62667
+best_epoch:1 best_step:6 best_test_acc:0.09755859375
+E:1 S:8 Train_Loss:7.41946 Test_Loss:6.49248 Train_Acc:0.11719 Test_Acc:0.10312 gap:0.01406 Train_Speed:24374 Test_Speed:61213
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:10 Train_Loss:7.83120 Test_Loss:6.03003 Train_Acc:0.11328 Test_Acc:0.09756 gap:0.01572 Train_Speed:24408 Test_Speed:59602
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:12 Train_Loss:7.27096 Test_Loss:9.43957 Train_Acc:0.10156 Test_Acc:0.09678 gap:0.00479 Train_Speed:24593 Test_Speed:61025
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:14 Train_Loss:7.26455 Test_Loss:6.46055 Train_Acc:0.12891 Test_Acc:0.09746 gap:0.03145 Train_Speed:24868 Test_Speed:62347
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:16 Train_Loss:6.37078 Test_Loss:7.03775 Train_Acc:0.09766 Test_Acc:0.09639 gap:0.00127 Train_Speed:24703 Test_Speed:61851
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:18 Train_Loss:6.37916 Test_Loss:6.11553 Train_Acc:0.08203 Test_Acc:0.09775 gap:-0.01572 Train_Speed:24720 Test_Speed:61926
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:20 Train_Loss:5.59352 Test_Loss:7.03386 Train_Acc:0.07031 Test_Acc:0.09785 gap:-0.02754 Train_Speed:24237 Test_Speed:61244
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:22 Train_Loss:5.89069 Test_Loss:6.73576 Train_Acc:0.10547 Test_Acc:0.09775 gap:0.00771 Train_Speed:23660 Test_Speed:60649
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:24 Train_Loss:5.14120 Test_Loss:5.90403 Train_Acc:0.10547 Test_Acc:0.09805 gap:0.00742 Train_Speed:23620 Test_Speed:62015
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:26 Train_Loss:4.15745 Test_Loss:5.68802 Train_Acc:0.07422 Test_Acc:0.09453 gap:-0.02031 Train_Speed:24478 Test_Speed:60533
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:28 Train_Loss:4.89877 Test_Loss:5.73261 Train_Acc:0.10938 Test_Acc:0.10244 gap:0.00693 Train_Speed:24267 Test_Speed:61596
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:30 Train_Loss:3.89265 Test_Loss:4.05154 Train_Acc:0.11328 Test_Acc:0.09785 gap:0.01543 Train_Speed:22314 Test_Speed:58301
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:32 Train_Loss:4.38079 Test_Loss:10.22981 Train_Acc:0.10547 Test_Acc:0.09697 gap:0.00850 Train_Speed:24539 Test_Speed:57790
+best_epoch:1 best_step:8 best_test_acc:0.103125
+E:1 S:34 Train_Loss:4.34355 Test_Loss:4.32133 Train_Acc:0.07812 Test_Acc:0.10488 gap:-0.02676 Train_Speed:24462 Test_Speed:59785
+best_epoch:1 best_step:34 best_test_acc:0.1048828125
+E:1 S:36 Train_Loss:4.89638 Test_Loss:5.28764 Train_Acc:0.09375 Test_Acc:0.09668 gap:-0.00293 Train_Speed:24580 Test_Speed:60893
+best_epoch:1 best_step:34 best_test_acc:0.1048828125
+E:1 S:38 Train_Loss:5.16537 Test_Loss:4.84321 Train_Acc:0.07812 Test_Acc:0.09893 gap:-0.02080 Train_Speed:24483 Test_Speed:46688
+best_epoch:1 best_step:34 best_test_acc:0.1048828125
+E:1 S:40 Train_Loss:4.71344 Test_Loss:3.72360 Train_Acc:0.14453 Test_Acc:0.09541 gap:0.04912 Train_Speed:21411 Test_Speed:33156
+best_epoch:1 best_step:34 best_test_acc:0.1048828125
+E:1 S:42 Train_Loss:3.26693 Test_Loss:3.87196 Train_Acc:0.08984 Test_Acc:0.09512 gap:-0.00527 Train_Speed:21063 Test_Speed:52826
+best_epoch:1 best_step:34 best_test_acc:0.1048828125
+E:1 S:44 Train_Loss:4.04824 Test_Loss:3.51553 Train_Acc:0.07812 Test_Acc:0.10840 gap:-0.03027 Train_Speed:21035 Test_Speed:57591
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:46 Train_Loss:3.06200 Test_Loss:4.00353 Train_Acc:0.07812 Test_Acc:0.09775 gap:-0.01963 Train_Speed:18941 Test_Speed:59355
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:48 Train_Loss:4.84856 Test_Loss:3.72515 Train_Acc:0.11719 Test_Acc:0.09062 gap:0.02656 Train_Speed:22982 Test_Speed:58140
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:50 Train_Loss:3.51983 Test_Loss:3.09474 Train_Acc:0.08984 Test_Acc:0.09570 gap:-0.00586 Train_Speed:17739 Test_Speed:48837
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:52 Train_Loss:3.66294 Test_Loss:4.11028 Train_Acc:0.07812 Test_Acc:0.09707 gap:-0.01895 Train_Speed:24516 Test_Speed:48373
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:54 Train_Loss:3.65887 Test_Loss:4.23036 Train_Acc:0.07031 Test_Acc:0.09893 gap:-0.02861 Train_Speed:24062 Test_Speed:58049
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:56 Train_Loss:3.58237 Test_Loss:3.70449 Train_Acc:0.14453 Test_Acc:0.09912 gap:0.04541 Train_Speed:23741 Test_Speed:60332
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:58 Train_Loss:3.43696 Test_Loss:2.90743 Train_Acc:0.09375 Test_Acc:0.09775 gap:-0.00400 Train_Speed:24297 Test_Speed:17635
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:60 Train_Loss:2.81244 Test_Loss:2.79593 Train_Acc:0.09766 Test_Acc:0.09863 gap:-0.00098 Train_Speed:17317 Test_Speed:59952
+best_epoch:1 best_step:44 best_test_acc:0.1083984375
+E:1 S:62 Train_Loss:2.58946 Test_Loss:2.52807 Train_Acc:0.11719 Test_Acc:0.11123 gap:0.00596 Train_Speed:24251 Test_Speed:60838
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:64 Train_Loss:2.78328 Test_Loss:3.78121 Train_Acc:0.09375 Test_Acc:0.10439 gap:-0.01064 Train_Speed:24513 Test_Speed:61272
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:66 Train_Loss:3.72261 Test_Loss:3.27150 Train_Acc:0.11328 Test_Acc:0.09551 gap:0.01777 Train_Speed:24686 Test_Speed:61244
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:68 Train_Loss:4.38025 Test_Loss:5.12933 Train_Acc:0.08984 Test_Acc:0.09277 gap:-0.00293 Train_Speed:24549 Test_Speed:57644
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:70 Train_Loss:5.03169 Test_Loss:4.32362 Train_Acc:0.10156 Test_Acc:0.09727 gap:0.00430 Train_Speed:24137 Test_Speed:60707
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:72 Train_Loss:6.09194 Test_Loss:4.77826 Train_Acc:0.09766 Test_Acc:0.09834 gap:-0.00068 Train_Speed:24573 Test_Speed:61272
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:74 Train_Loss:4.71561 Test_Loss:4.17539 Train_Acc:0.11328 Test_Acc:0.09248 gap:0.02080 Train_Speed:24565 Test_Speed:60376
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:76 Train_Loss:4.30975 Test_Loss:3.20172 Train_Acc:0.08984 Test_Acc:0.09229 gap:-0.00244 Train_Speed:24549 Test_Speed:58932
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:78 Train_Loss:3.21101 Test_Loss:3.42407 Train_Acc:0.10156 Test_Acc:0.09375 gap:0.00781 Train_Speed:24665 Test_Speed:57514
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:80 Train_Loss:4.88761 Test_Loss:3.94832 Train_Acc:0.10547 Test_Acc:0.09746 gap:0.00801 Train_Speed:21570 Test_Speed:59838
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:82 Train_Loss:4.03149 Test_Loss:3.75009 Train_Acc:0.08203 Test_Acc:0.09746 gap:-0.01543 Train_Speed:23056 Test_Speed:52938
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:84 Train_Loss:3.53435 Test_Loss:2.76713 Train_Acc:0.10547 Test_Acc:0.09502 gap:0.01045 Train_Speed:23985 Test_Speed:53940
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:86 Train_Loss:2.70828 Test_Loss:2.39789 Train_Acc:0.10156 Test_Acc:0.09033 gap:0.01123 Train_Speed:23965 Test_Speed:57840
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:88 Train_Loss:2.49849 Test_Loss:2.53912 Train_Acc:0.09766 Test_Acc:0.09482 gap:0.00283 Train_Speed:23218 Test_Speed:57016
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:90 Train_Loss:2.73507 Test_Loss:2.69759 Train_Acc:0.07031 Test_Acc:0.09629 gap:-0.02598 Train_Speed:24194 Test_Speed:48111
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:92 Train_Loss:2.52185 Test_Loss:2.89308 Train_Acc:0.09375 Test_Acc:0.09648 gap:-0.00273 Train_Speed:21658 Test_Speed:41770
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:94 Train_Loss:3.29681 Test_Loss:2.98762 Train_Acc:0.08594 Test_Acc:0.09775 gap:-0.01182 Train_Speed:23965 Test_Speed:58635
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:96 Train_Loss:3.73304 Test_Loss:2.95295 Train_Acc:0.08984 Test_Acc:0.09707 gap:-0.00723 Train_Speed:23462 Test_Speed:40705
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:98 Train_Loss:3.61959 Test_Loss:3.36952 Train_Acc:0.06250 Test_Acc:0.09531 gap:-0.03281 Train_Speed:6989 Test_Speed:56414
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:100 Train_Loss:3.13932 Test_Loss:3.26240 Train_Acc:0.08984 Test_Acc:0.07324 gap:0.01660 Train_Speed:24455 Test_Speed:60292
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:102 Train_Loss:2.84819 Test_Loss:2.85544 Train_Acc:0.08203 Test_Acc:0.09951 gap:-0.01748 Train_Speed:24520 Test_Speed:58674
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:104 Train_Loss:2.68355 Test_Loss:2.55706 Train_Acc:0.09766 Test_Acc:0.10527 gap:-0.00762 Train_Speed:24509 Test_Speed:58783
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:106 Train_Loss:2.43607 Test_Loss:2.92212 Train_Acc:0.08984 Test_Acc:0.09971 gap:-0.00986 Train_Speed:23662 Test_Speed:28048
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:108 Train_Loss:3.56024 Test_Loss:2.46878 Train_Acc:0.07812 Test_Acc:0.07812 gap:0.00000 Train_Speed:24455 Test_Speed:54771
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:110 Train_Loss:2.70800 Test_Loss:2.42784 Train_Acc:0.09375 Test_Acc:0.08896 gap:0.00479 Train_Speed:22436 Test_Speed:60251
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:112 Train_Loss:2.79839 Test_Loss:2.71529 Train_Acc:0.10938 Test_Acc:0.09648 gap:0.01289 Train_Speed:23609 Test_Speed:60052
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
+E:1 S:114 Train_Loss:2.85961 Test_Loss:2.79401 Train_Acc:0.09766 Test_Acc:0.09492 gap:0.00273 Train_Speed:24427 Test_Speed:57361
+best_epoch:1 best_step:62 best_test_acc:0.11123046875
